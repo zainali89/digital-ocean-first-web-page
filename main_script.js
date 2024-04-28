@@ -210,7 +210,7 @@ function loadContent() {
       <div class="real-card-flex2">
           <div class="card-2">
               <div class="card-2-data">
-                  <img src="Images/card-img.jpeg" alt="" class="card-2-img">
+                  <img src="images/card-img.jpeg" alt="" class="card-2-img">
                   <h3 class="card-2-head">The Best Online Casino Games</h3>
                   <p class="card-2-content">Whether you’re an experienced online casino player, or you’re just thinking about trying it for the first time, you are going to want to know which games are the best. Every individual is going to have different preferences, but learning about the different options and how to find the ones that will meet your...</p>
                   <button class="card-2-btn">FIND OUT MORE</button>
@@ -218,7 +218,7 @@ function loadContent() {
           </div>
           <div class="card-2">
               <div class="card-2-data">
-                  <img src="Images/card-img.jpeg" alt="" class="card-2-img">
+                  <img src="images/card-img.jpeg" alt="" class="card-2-img">
                   <h3 class="card-2-head">The Best Online Casino Games</h3>
                   <p class="card-2-content">Whether you’re an experienced online casino player, or you’re just thinking about trying it for the first time, you are going to want to know which games are the best. Every individual is going to have different preferences, but learning about the different options and how to find the ones that will meet your...</p>
                   <button class="card-2-btn">FIND OUT MORE</button>
@@ -226,7 +226,7 @@ function loadContent() {
           </div>
           <div class="card-2">
               <div class="card-2-data">
-                  <img src="Images/card-img.jpeg" alt="" class="card-2-img">
+                  <img src="images/card-img.jpeg" alt="" class="card-2-img">
                   <h3 class="card-2-head">The Best Online Casino Games</h3>
                   <p class="card-2-content">Whether you’re an experienced online casino player, or you’re just thinking about trying it for the first time, you are going to want to know which games are the best. Every individual is going to have different preferences, but learning about the different options and how to find the ones that will meet your...</p>
                   <button class="card-2-btn">FIND OUT MORE</button>
