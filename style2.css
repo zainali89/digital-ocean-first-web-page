@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('images/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 66px 0px;
+}
+
+hr{
+    margin: 0;
+    border-top: 3px solid rgba(180, 0, 63, 1);
+    margin-bottom: -1px;
+}
+
+.main-heading2{
+    color: white;
+    line-height: 45px;
+    font-size: 36px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-heading2 span{
+    color: rgba(255, 78, 99, 1);
+}
+.main-sub-heading2{
+    color: rgba(255,255,255,.8);
+    line-height: 21px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.item1 { grid-area: img; }
+.item2 { grid-area: text; }
+.item3 { grid-area: svg; }
+.item4 { grid-area: img1; }
+.item5 { grid-area: img2; }
+.item6 { grid-area: img3; }
+.item7 { grid-area: score; }
+.item8 { grid-area: rate; }
+.item9 { grid-area: btn; }
+
+.grid-1{
+    background-color: rgba(57, 8, 27, 1);
+    display: grid;
+  grid-template-areas:
+    'img img img img img text text text text'
+    'svg svg svg img1 img1 img2 img2 img3 img3'
+    'score score score rate rate rate btn btn btn';
+  gap: 20px;
+}
+
+.text-design{
+    align-self: center;
+}
+
+.main-text{
+    color: white;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.wel-text{
+    color: rgba(255, 216, 76, 1);
+    font-weight: bold;
+}
+
+.border{
+    border: 2px dotted rgba(255, 216, 76, 1);
+    width: 55%;
+    border-radius: 12px;
+    background: rgba(75, 14, 32, 1);
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: none;
+    margin: 0 auto;
+}
+
+.m-img-div img{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.img-sec-1 img{
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-sec-1 p{
+    color: rgba(255,255,255,.8);
+    text-align: center;
+    font-size: 14px;
+}
+
+.item6{
+    padding-right: 20px;
+}
+
+.svg{
+    padding-left: 20px;
+}
+
+.svg img{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.svg p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.score{
+    align-self: center;
+}
+
+.score-head{
+    color: white;
+    font-weight: 500;
+    font-size: 46px;
+    margin: 0;
+    text-align: center;
+}
+
+.score-tag{
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.rating{
+    align-self: center;
+}
+
+.rate-stars{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rate-tag{
+    margin: 0;
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-sec2 button{
+    background-color: rgba(52, 176, 88, 1);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-sec2 button:hover{
+    cursor: pointer;
+    background-color: rgba(75, 14, 32, 1);
+}
+
+.btn-sec2 p{
+    color: rgba(255,255,255,.8);
+    text-align: center;
+}
+
+.second-flex2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.second-sub-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+
+.secondss2{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.accordion-section2{
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+
+
+.second-text2{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 14px 0px;
+}
+
+.accordion-content2 {
+    max-height: 0; /* Content is hidden by default */
+    overflow: hidden; /* Hide overflowed content */
+    transition: max-height 1s ease-in-out;
+}
+
+.accordion-content2 p{
+    width: 92%;
+    padding: 12px 0px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+  
+  /* Expanded content with the open class */
+.accordion-section2.open .accordion-content2 {
+    max-height: 200px; /* Set a suitable height for expanded content */
+    padding: 0; /* Padding when expanded */
+}
+
+.plus-btn2{
+    background-color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+
+}
+
+.third-flex{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.real-card-flex2{
+
+    width: 90%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    margin: 0 auto;
+    row-gap: 28px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-2{
+    width: 100%;
+    background-color: rgba(242, 242, 242, 1);
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.card-2-data{
+    padding: 20px;
+}
+
+.card-2-content{
+    font-size: 14px;
+    color: #212121;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.card-2-img{
+    height: 235px;
+    object-fit: cover; 
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-2-btn{
+    padding: 12px 20px;
+    background: rgba(52, 176, 88, 1);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    margin-top: 24px;
+}
+
+
+
+ 
+  
